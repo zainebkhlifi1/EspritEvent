@@ -1,21 +1,18 @@
 package Entite;
 
-import java.sql.DriverManager;
-import java.sql.SQLException;
-
-public class Administrateur {
+public class Responsable {
     private int id;
     private String nom,prenom;
     private int age;
 
-    public Administrateur(int id, String nom, String prenom, int age) {
+    public Responsable(int id, String nom, String prenom, int age) {
         this.id = id;
         this.nom = nom;
         this.prenom = prenom;
         this.age = age;
     }
 
-    public Administrateur(int id, String nom, String prenom) {
+    public Responsable(int id, String nom, String prenom) {
         this.id = id;
         this.nom = nom;
         this.prenom = prenom;
